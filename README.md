@@ -6,6 +6,7 @@ To install simply issue the go build command as all code is native to Golang and
 external dependencies.
 
 cd src
+
 go build main.go
 
 # Program state
