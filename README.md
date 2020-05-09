@@ -3,11 +3,11 @@ Go program that receives JSON from corona virus API at https://covid-api.mmediag
 
 # INSTALL
 To install simply issue the go build command as all code is native to Golang and requires no
-external dependencies.
+external dependencies. go build will link state-struct.go and main.go together automatically.
 
 cd src
 
-go build main.go
+go build -o anyname
 
 # Program state
 Please note this software is working , but still needs some more work.
